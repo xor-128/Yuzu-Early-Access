@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\4.ico</ApplicationIcon>
+    <Title>YuzuUpdate</Title>
+    <Description>Yuzu updater for Early Access</Description>
+    <Company>xor128</Company>
+    <RepositoryUrl>https://github.com/xor-128/Yuzu-Early-Access</RepositoryUrl>
+    <PackageTags>yuzu, early access, updater, simple</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\1.ico" />
+    <Resource Include="Resources\4.ico" />
+  </ItemGroup>
+
+</Project>
